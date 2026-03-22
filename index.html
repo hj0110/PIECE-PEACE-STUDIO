@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background:#ffffff; font-family: "Noto Sans KR", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; }
+    .slide { width:1280px; height:720px; display:flex; background:#ffffff; }
+    .muted { color:#6b7280; }
+    .ink { color:#111827; }
+    .hairline { border-color:#e5e7eb; }
+    .card { background:#ffffff; border:1px solid #e5e7eb; border-radius:14px; }
+    .chip { border:1px solid #e5e7eb; border-radius:9999px; padding:2px 10px; font-size:11px; color:#374151; background:#fafafa; }
+    .kpi { border:1px solid #e5e7eb; border-radius:12px; background:#fbfbfb; }
+    .small { font-size:12px; line-height:1.45; }
+    .tight { line-height:1.25; }
+    .ultra-tight { line-height:1.15; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  </style>
+</head>
+<body>
+<div class="slide">
+<div class="flex-1 flex flex-col px-12 py-10">
+<!-- Header -->
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<p class="text-3xl font-extrabold ink ultra-tight">산업 개요 + Value Chain</p>
+<p class="mt-2 text-sm muted">프레이밍: 패션 <span class="font-semibold text-gray-800">브랜드 산업</span> 중심(제조가 아닌 브랜드·채널에서 가치가 결정)</p>
+</div>
+<div class="flex items-center space-x-2">
+</div>
+</div>
+<!-- Key message strip -->
+<div class="mt-6 card px-5 py-4">
+<div class="flex items-center justify-between">
+<div class="flex items-center space-x-3">
+<div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:#f3f4f6;border:1px solid #e5e7eb;">
+<i class="fa-solid fa-bullseye text-gray-700"></i>
+</div>
+<div>
+<p class="text-base font-bold ink ultra-tight">핵심 메시지</p>
+<p class="mt-1 text-sm ink tight">“패션은 제조업에서 출발하지만, <span class="font-extrabold">이익은 브랜드와 채널</span>에서 결정된다.”</p>
+</div>
+</div>
+<div class="kpi px-4 py-3">
+<p class="text-xs muted tight">IPO 관점 요약</p>
+<p class="mt-1 text-sm font-semibold ink tight">생산 역량보다 <span class="font-extrabold">브랜드력</span>·<span class="font-extrabold">채널 통제력</span>이 가치창출의 핵심</p>
+</div>
+</div>
+</div>
+<!-- 3 columns -->
+<div class="mt-6 flex flex-1 space-x-5">
+<!-- Left: Definition -->
+<div class="w-1/3 card p-5 flex flex-col">
+<div class="flex items-center justify-between">
+<p class="text-sm font-extrabold ink tracking-wide">좌측 | 산업 정의</p>
+<p class="text-xs muted"><span class="mono">Scope</span></p>
+</div>
+<div class="mt-4">
+<p class="text-lg font-extrabold ink ultra-tight">패션 ‘브랜드 산업’</p>
+<p class="mt-2 text-sm ink">
+<span class="font-semibold">소재/제조 기반</span> 위에서 <span class="font-extrabold">브랜드·기획·유통 역량</span>이 부가가치를 좌우하는 <span class="font-semibold">소비재 산업</span>
+</p>
+</div>
+<div class="mt-4">
+<p class="text-sm font-bold ink">포함 범위(IPO 분석 관점)</p>
+<div class="mt-2 space-y-2">
+<div class="flex items-start space-x-2">
+<div class="mt-1 w-2 h-2 rounded-full" style="background:#111827;"></div>
+<p class="text-sm ink tight"><span class="font-semibold">브랜드 기획/MD</span> (시즌·드롭, 가격·제품 믹스, SKU 운영)</p>
+</div>
+<div class="flex items-start space-x-2">
+<div class="mt-1 w-2 h-2 rounded-full" style="background:#111827;"></div>
+<p class="text-sm ink tight"><span class="font-semibold">IP/디자인</span> (시그니처·로고, 카테고리 확장, 콜라보)</p>
+</div>
+<div class="flex items-start space-x-2">
+<div class="mt-1 w-2 h-2 rounded-full" style="background:#111827;"></div>
+<p class="text-sm ink tight"><span class="font-semibold">채널</span> (플랫폼·자사몰·리테일) 및 <span class="font-semibold">CRM</span> (재구매·커뮤니티)</p>
+</div>
+<div class="flex items-start space-x-2">
+<div class="mt-1 w-2 h-2 rounded-full" style="background:#111827;"></div>
+<p class="text-sm ink tight"><span class="font-semibold">글로벌 소싱/공급망</span> (리드타임, 멀티 벤더, 품질·납기)</p>
+</div>
+</div>
+</div>
+<div class="mt-auto pt-4 border-t hairline">
+<p class="text-xs muted tight">프레이밍 전환</p>
+<p class="mt-1 text-sm ink tight"><span class="font-semibold">노동집약 제조</span> → <span class="font-extrabold">브랜드 중심</span>으로 가치 이동(브랜드/채널이 Value Capture 주도)</p>
+</div>
+</div>
+<!-- Center: Value Chain -->
+<div class="w-1/3 card p-5 flex flex-col">
+<div class="flex items-center justify-between">
+<p class="text-sm font-extrabold ink tracking-wide">중앙 | Value Chain</p>
+<p class="text-xs muted"><span class="mono">Flow</span></p>
+</div>
+<div class="mt-4">
+<p class="text-sm font-bold ink">엔드-투-엔드 밸류체인</p>
+<div class="mt-3 space-y-2">
+<!-- Node rows -->
+<div class="flex items-center">
+<div class="w-32 kpi px-3 py-2">
+<p class="text-xs font-semibold ink tight">원사/섬유</p>
+<p class="text-xs muted tight">Upstream</p>
+</div>
+<div class="flex-1 flex items-center px-3">
+<div class="h-px flex-1" style="background:#e5e7eb;"></div>
+<i class="fa-solid fa-chevron-right text-gray-400 mx-2 text-xs"></i>
+<div class="h-px flex-1" style="background:#e5e7eb;"></div>
+</div>
+<div class="w-32 kpi px-3 py-2">
+<p class="text-xs font-semibold ink tight">원단</p>
+<p class="text-xs muted tight">Material</p>
+</div>
+</div>
+<div class="flex items-center">
+<div class="w-32 kpi px-3 py-2">
+<p class="text-xs font-semibold ink tight">OEM/ODM</p>
+<p class="text-xs muted tight">제조</p>
+</div>
+<div class="flex-1 flex items-center px-3">
+<div class="h-px flex-1" style="background:#e5e7eb;"></div>
+<i class="fa-solid fa-chevron-right text-gray-400 mx-2 text-xs"></i>
+<div class="h-px flex-1" style="background:#e5e7eb;"></div>
+</div>
+<div class="w-32 kpi px-3 py-2" style="border-color:#d1d5db;">
+<p class="text-xs font-extrabold ink tight">브랜드 기획</p>
+<p class="text-xs muted tight">Design/MD</p>
+</div>
+</div>
+<div class="flex items-center">
+<div class="w-32 kpi px-3 py-2" style="border-color:#d1d5db;">
+<p class="text-xs font-semibold ink tight">생산·소싱</p>
+<p class="text-xs muted tight">Lead time</p>
+</div>
+<div class="flex-1 flex items-center px-3">
+<div class="h-px flex-1" style="background:#e5e7eb;"></div>
+<i class="fa-solid fa-chevron-right text-gray-400 mx-2 text-xs"></i>
+<div class="h-px flex-1" style="background:#e5e7eb;"></div>
+</div>
+<div class="w-32 kpi px-3 py-2" style="border-color:#d1d5db;">
+<p class="text-xs font-semibold ink tight">유통</p>
+<p class="text-xs muted tight">Platform/D2C</p>
+</div>
+</div>
+<div class="flex items-center">
+<div class="w-32 kpi px-3 py-2" style="border-color:#d1d5db;">
+<p class="text-xs font-semibold ink tight">고객 데이터</p>
+<p class="text-xs muted tight">1P Data</p>
+</div>
+<div class="flex-1 flex items-center px-3">
+<div class="h-px flex-1" style="background:#e5e7eb;"></div>
+<i class="fa-solid fa-chevron-right text-gray-400 mx-2 text-xs"></i>
+<div class="h-px flex-1" style="background:#e5e7eb;"></div>
+</div>
+<div class="w-32 kpi px-3 py-2" style="border-color:#d1d5db;">
+<p class="text-xs font-semibold ink tight">CRM/재구매</p>
+<p class="text-xs muted tight">Community</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-5">
+<p class="text-sm font-bold ink">Value Capture(이익 귀속) 방향</p>
+<div class="mt-2 p-4 kpi">
+<div class="flex items-center justify-between">
+<p class="text-xs muted tight">제조</p>
+<div class="flex-1 mx-3 h-2 rounded-full" style="background:#f3f4f6; border:1px solid #e5e7eb;">
+<div class="h-2 rounded-full" style="width:28%; background:#9ca3af;"></div>
+</div>
+<p class="text-xs font-semibold ink tight">낮음</p>
+</div>
+<div class="mt-2 flex items-center justify-between">
+<p class="text-xs muted tight">브랜드/IP</p>
+<div class="flex-1 mx-3 h-2 rounded-full" style="background:#f3f4f6; border:1px solid #e5e7eb;">
+<div class="h-2 rounded-full" style="width:62%; background:#374151;"></div>
+</div>
+<p class="text-xs font-semibold ink tight">중~높음</p>
+</div>
+<div class="mt-2 flex items-center justify-between">
+<p class="text-xs muted tight">채널(직판)</p>
+<div class="flex-1 mx-3 h-2 rounded-full" style="background:#f3f4f6; border:1px solid #e5e7eb;">
+<div class="h-2 rounded-full" style="width:78%; background:#111827;"></div>
+</div>
+<p class="text-xs font-semibold ink tight">높음</p>
+</div>
+<p class="mt-3 text-xs muted tight">*정성적 구조 설명(브랜드·채널의 가격권/데이터 축적이 수익성 결정에 핵심)</p>
+</div>
+</div>
+<div class="mt-auto pt-4 border-t hairline">
+<p class="text-xs muted tight">시사점</p>
+<p class="mt-1 text-sm ink tight">브랜드는 <span class="font-semibold">제품력</span>뿐 아니라 <span class="font-extrabold">채널·데이터·운영</span>을 포함한 통합 역량으로 평가</p>
+</div>
+</div>
+<!-- Right: Industry features -->
+<div class="w-1/3 card p-5 flex flex-col">
+<div class="flex items-center justify-between">
+<p class="text-sm font-extrabold ink tracking-wide">우측 | 산업 특징</p>
+<p class="text-xs muted"><span class="mono">Economics</span></p>
+</div>
+<div class="mt-4 grid grid-cols-1 gap-3">
+<div class="kpi p-4">
+<div class="flex items-start justify-between">
+<div class="flex items-start space-x-3">
+<div class="w-9 h-9 rounded-xl flex items-center justify-center" style="background:#f3f4f6;border:1px solid #e5e7eb;">
+<i class="fa-solid fa-bolt text-gray-700"></i>
+</div>
+<div>
+<p class="text-sm font-bold ink tight">트렌드 민감/수요 변동성</p>
+<p class="mt-1 text-xs muted tight">히트/미스가 실적 변동을 좌우 → <span class="text-gray-800 font-semibold">MD 정확도</span>·<span class="text-gray-800 font-semibold">신제품 회전</span> 중요</p>
+</div>
+</div>
+</div>
+</div>
+<div class="kpi p-4">
+<div class="flex items-start space-x-3">
+<div class="w-9 h-9 rounded-xl flex items-center justify-center" style="background:#f3f4f6;border:1px solid #e5e7eb;">
+<i class="fa-solid fa-boxes-stacked text-gray-700"></i>
+</div>
+<div>
+<p class="text-sm font-bold ink tight">재고·납기 리스크 상존</p>
+<p class="mt-1 text-xs muted tight">과재고/할인 → 마진 훼손. <span class="text-gray-800 font-semibold">리드타임 단축</span>·<span class="text-gray-800 font-semibold">반응생산</span>·<span class="text-gray-800 font-semibold">수요예측</span> 필요</p>
+</div>
+</div>
+</div>
+<div class="kpi p-4">
+<div class="flex items-start space-x-3">
+<div class="w-9 h-9 rounded-xl flex items-center justify-center" style="background:#f3f4f6;border:1px solid #e5e7eb;">
+<i class="fa-solid fa-globe text-gray-700"></i>
+</div>
+<div>
+<p class="text-sm font-bold ink tight">글로벌 소싱/멀티 파운드리</p>
+<p class="mt-1 text-xs muted tight">원가·품질·리스크 분산의 균형. 공급망 재편 환경에서 <span class="text-gray-800 font-semibold">벤더 포트폴리오</span> 중요</p>
+</div>
+</div>
+</div>
+<div class="kpi p-4">
+<div class="flex items-start space-x-3">
+<div class="w-9 h-9 rounded-xl flex items-center justify-center" style="background:#f3f4f6;border:1px solid #e5e7eb;">
+<i class="fa-solid fa-crown text-gray-700"></i>
+</div>
+<div>
+<p class="text-sm font-bold ink tight">브랜드/IP 중심 수익화</p>
+<p class="mt-1 text-xs muted tight">가격권·팬덤·카테고리 확장. <span class="text-gray-800 font-semibold">카피캣/듀프</span> 확산 속 차별화·보호 전략 중요</p>
+</div>
+</div>
+</div>
+<div class="kpi p-4">
+<div class="flex items-start space-x-3">
+<div class="w-9 h-9 rounded-xl flex items-center justify-center" style="background:#f3f4f6;border:1px solid #e5e7eb;">
+<i class="fa-solid fa-chart-line text-gray-700"></i>
+</div>
+<div>
+<p class="text-sm font-bold ink tight">옴니채널·데이터 기반 운영</p>
+<p class="mt-1 text-xs muted tight">플랫폼(발견) + 자사몰(D2C·CRM) + 오프라인(경험) → <span class="text-gray-800 font-semibold">LTV</span>·<span class="text-gray-800 font-semibold">마진</span> 개선 여지</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-auto pt-4 border-t hairline">
+<p class="text-xs muted tight">체크포인트(투자자 관점)</p>
+<div class="mt-2 grid grid-cols-2 gap-2">
+<div class="flex items-center space-x-2">
+<i class="fa-regular fa-circle-check text-gray-700"></i>
+<p class="text-xs ink tight">브랜드력(인지·선호·재구매)</p>
+</div>
+<div class="flex items-center space-x-2">
+<i class="fa-regular fa-circle-check text-gray-700"></i>
+<p class="text-xs ink tight">채널 믹스·직판 비중</p>
+</div>
+<div class="flex items-center space-x-2">
+<i class="fa-regular fa-circle-check text-gray-700"></i>
+<p class="text-xs ink tight">재고회전·리드타임</p>
+</div>
+<div class="flex items-center space-x-2">
+<i class="fa-regular fa-circle-check text-gray-700"></i>
+<p class="text-xs ink tight">데이터/CRM 성숙도</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<div class="mt-5 flex items-center justify-end">
+<p class="text-xs muted tight">피스피스 스튜디오 IPO 프로포절 | 산업분석</p>
+</div>
+</div>
+</div>
+</body>
+</html>
